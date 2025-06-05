@@ -46,6 +46,8 @@ try {
   });
 
   // help, about, dvd,  js, rainbow, language
+
+  console.log(`Successfully loaded script.`)
 } catch (err) {
   if (err) console.error(`Unable to connect script: ${err.message}`);
 }
